@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="heading">
+            <h1>Etch-A-Sketch</h1>
+            <div class="nav">
+                <span>Black and white</span>
+                <span>Colors</span>
+            </div>
+        </header>
+        <div class="content">
+            <div class="left">
+                <span>- Size +</span>
+                <input class="size-range" type="range" min="0" max="100" step="1" value="50">
+                <input type="button" value="Apply">
+                <input type="button" value="Reset">
+            </div>
+            <div class="right">
+                <div id="grid-container">
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            Copyright &copy; <span id="year"></span> xxprozaixx
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
