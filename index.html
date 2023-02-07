@@ -10,18 +10,18 @@
 <body>
     <div class="container">
         <header class="heading">
-            <h1>Etch-A-Sketch</h1>
+            <h1><a href="index.html">Etch-A-Sketch</a></h1>
             <div class="nav">
-                <span>Black and white</span>
-                <span>Colors</span>
+                <nav><a href="#">Black and white</a></nav>
+                <nav><a href="#">Colors</a></nav>
             </div>
         </header>
         <div class="content">
             <div class="left">
                 <span>- Size +</span>
-                <input class="size-range" type="range" min="0" max="100" step="1" value="50">
-                <input type="button" value="Apply">
-                <input type="button" value="Reset">
+                <input class="size-range slider" type="range" min="0" max="100" step="1" value="50">
+                <input type="button" value="Apply" class="styled-button">
+                <input type="button" value="Reset" class="styled-button">
             </div>
             <div class="right">
                 <div id="grid-container">
