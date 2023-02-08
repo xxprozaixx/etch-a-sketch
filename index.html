@@ -19,12 +19,13 @@
         <div class="content">
             <div class="left">
                 <span>- Size +</span>
-                <input class="size-range slider" type="range" min="0" max="100" step="1" value="50">
+                <input class="size-range slider" id="columns-slider" type="range" min="5" max="15" value="16">
+                <input type="color" id="color-picker">
                 <input type="button" value="Apply" class="styled-button">
-                <input type="button" value="Reset" class="styled-button">
+                <input type="button" value="Reset" class="styled-button reset">
             </div>
             <div class="right">
-                <div id="grid-container">
+                <div id="grid">
 
                 </div>
             </div>
